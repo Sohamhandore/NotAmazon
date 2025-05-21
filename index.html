@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NotAmazon - Your Ultimate Online Shopping Destination" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NotAmazon - Online Shopping</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo border">
+            <img src="https://media.licdn.com/dms/image/v2/D5605AQH5fmqn2kRe8w/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1700904822718?e=2147483647&v=beta&t=L4lPcqo5abX-Q_De0X3z9LwpRVdVZMQ75RSr-lal7Z8" alt="NotAmazon Logo" class="logo-img">
+          </div>
+          <div class="nav-add border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-second">Select Location</p>
+            </div>
+          </div>
+
+          <div class="nav-search">
+            <select class="search-select">
+              <option>All Categories</option>
+              <option>Electronics</option>
+              <option>Fashion</option>
+              <option>Home & Kitchen</option>
+              <option>Beauty & Personal Care</option>
+              <option>Sports & Outdoors</option>
+            </select>
+            <input placeholder="Search NotAmazon" class="search-input" />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+
+          <div class="nav-signin border">
+            <p><span>Welcome</span></p>
+            <p class="nav-second">Sign In / Register</p>
+          </div>
+
+          <div class="nav-returnn border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+          </div>
+
+          <div class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">0</span>
+            <span class="cart-text">Cart</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="pannel">
+        <div class="pannel-all">
+          <i class="fa-solid fa-bars"></i>
+          Shop by Category
+        </div>
+        <div class="pannel-ops">
+          <p>Deals of the Day</p>
+          <p>New Arrivals</p>
+          <p>Best Sellers</p>
+          <p>Customer Service</p>
+          <p>Gift Cards</p>
+          <p>NotAmazon Prime</p>
+        </div>
+        <div class="pannel-deals">
+          <i class="fa-solid fa-bolt"></i> Flash Sale
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-section">
+      <div class="hero-msg">
+        <h1 class="main-title">NotAmazon</h1>
+        <div class="tagline-container">
+          <div class="tagline">Welcome to NotAmazon! Discover amazing deals and shop with confidence.</div>
+          <div class="tagline">Free shipping on orders over $50! Limited time offer.</div>
+          <div class="tagline">New arrivals every day! Check out our latest collection.</div>
+          <div class="tagline">Flash Sale: Up to 70% off on selected items!</div>
+        </div>
+        <a href="#" class="learn-more">Learn more about our services <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="shop-section">
+      <div class="box" data-category="electronics">
+        <div class="box-content">
+          <h2>Premium Electronics</h2>
+          <div class="box-img" style="background-image: url(images/box4_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Up to 40% OFF</span>
+            </div>
+          </div>
+          <p>Shop Now <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="fashion">
+        <div class="box-content">
+          <h2>Fashion Collection</h2>
+          <div class="box-img" style="background-image: url(images/box1_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">New Season</span>
+            </div>
+          </div>
+          <p>Explore Styles <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="home">
+        <div class="box-content">
+          <h2>Home & Living</h2>
+          <div class="box-img" style="background-image: url(images/box3_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Best Sellers</span>
+            </div>
+          </div>
+          <p>Discover More <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="beauty">
+        <div class="box-content">
+          <h2>Beauty Essentials</h2>
+          <div class="box-img" style="background-image: url(images/box5_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Trending</span>
+            </div>
+          </div>
+          <p>Shop Beauty <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="pets">
+        <div class="box-content">
+          <h2>Pet Supplies</h2>
+          <div class="box-img" style="background-image: url(images/box6_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Pet Care</span>
+            </div>
+          </div>
+          <p>Pet Care <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="toys">
+        <div class="box-content">
+          <h2>Toys & Games</h2>
+          <div class="box-img" style="background-image: url(images/box7_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Hot Deals</span>
+            </div>
+          </div>
+          <p>Shop Toys <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="fashion">
+        <div class="box-content">
+          <h2>Fashion Trends</h2>
+          <div class="box-img" style="background-image: url(images/box8_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">New Arrivals</span>
+            </div>
+          </div>
+          <p>New Arrivals <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+
+      <div class="box" data-category="health">
+        <div class="box-content">
+          <h2>Health & Wellness</h2>
+          <div class="box-img" style="background-image: url(images/box2_image.jpg);">
+            <div class="box-overlay">
+              <span class="discount-tag">Wellness</span>
+            </div>
+          </div>
+          <p>Shop Health <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot-pannel1">
+        <button class="back-to-top">Back to Top</button>
+      </div>
+
+      <div class="foot-pannel2">
+        <ul>
+          <li><p>About NotAmazon</p></li>
+          <li>Careers</li>
+          <li>Press Releases</li>
+          <li>Community</li>
+          <li>Investor Relations</li>
+          <li>NotAmazon Devices</li>
+          <li>NotAmazon Science</li>
+        </ul>
+
+        <ul>
+          <li><p>Make Money with Us</p></li>
+          <li>Sell on NotAmazon</li>
+          <li>Sell Under NotAmazon Accelerator</li>
+          <li>Become an Affiliate</li>
+          <li>Advertise Your Products</li>
+          <li>Self-Publish with Us</li>
+          <li>Host an NotAmazon Hub</li>
+        </ul>
+
+        <ul>
+          <li><p>NotAmazon Payment Products</p></li>
+          <li>NotAmazon Business Card</li>
+          <li>Shop with Points</li>
+          <li>Reload Your Balance</li>
+          <li>NotAmazon Currency Converter</li>
+          <li>Gift Cards</li>
+          <li>NotAmazon Cash</li>
+        </ul>
+
+        <ul>
+          <li><p>Let Us Help You</p></li>
+          <li>Your Account</li>
+          <li>Your Orders</li>
+          <li>Shipping Rates & Policies</li>
+          <li>Returns & Replacements</li>
+          <li>Help</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      <div class="foot-pannel3">
+        <div class="logo">
+          <h1>NotAmazon</h1>
+        </div>
+      </div>
+
+      <div class="foot-pannel4">
+        <div class="pages">
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          © 2024 NotAmazon.com, Inc. or its affiliates
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
