@@ -1,5 +1,6 @@
 # Notamazon
-![(https://github.com/user-attachments/assets/03bd567c-7e49-4a84-b90e-b2b024511fa1)
+![image](https://github.com/user-attachments/assets/61468009-3074-4ff8-b7ba-6b265a579e22)
+
 
 
 Amazon Clone - Notamazon
