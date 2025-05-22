@@ -1,5 +1,6 @@
 # Notamazon
-![image](https://github.com/user-attachments/assets/b632f4aa-75f1-4016-9a73-da08246d932f)
+![(https://github.com/user-attachments/assets/03bd567c-7e49-4a84-b90e-b2b024511fa1)
+
 
 Amazon Clone - Notamazon
 This is a simple Amazon clone project named Notamazon.
