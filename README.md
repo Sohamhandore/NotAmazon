@@ -1,5 +1,6 @@
 # Notamazon
-![ChatGPT Image May 22, 2025, 05_19_40 PM](https://github.com/user-attachments/assets/43bdf917-1410-4750-8e5e-838600b9ccf9)
+![image](https://github.com/user-attachments/assets/325cce9b-f0f4-4a45-96ef-957497d307c2)
+
 
 
 
